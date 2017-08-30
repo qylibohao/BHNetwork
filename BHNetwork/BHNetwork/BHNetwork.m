@@ -7,7 +7,7 @@
 //
 
 
-#import "BHNetworking.h"
+#import "BHNetwork.h"
 #import "AFNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
 #import "BHNetworking+RequestManager.h"
@@ -33,13 +33,13 @@ static AFHTTPResponseSerializer<AFURLResponseSerialization> *_responseSerializer
 
 static AFHTTPRequestSerializer<AFURLRequestSerialization> *_requestSerializer;
 
-@interface BHNetworking()
+@interface BHNetwork()
 
 
 
 @end
 
-@implementation BHNetworking
+@implementation BHNetwork
 #pragma mark - manager
 + (AFHTTPSessionManager *)manager {
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
@@ -607,7 +607,7 @@ static AFHTTPRequestSerializer<AFURLRequestSerialization> *_requestSerializer;
 
 @end
 
-@implementation BHNetworking (cache)
+@implementation BHNetwork (cache)
 + (NSUInteger)totalCacheSize {
     return [[BHCacheManager shareManager] totalCacheSize];
 }

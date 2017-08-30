@@ -113,7 +113,7 @@ typedef BHDownloadProgress BHPostProgress;
 
 typedef BHResponseFailBlock BHDownloadFailBlock;
 
-@interface BHNetworking : NSObject
+@interface BHNetwork : NSObject
 
 /**
  *  正在运行的网络任务
@@ -304,7 +304,7 @@ typedef BHResponseFailBlock BHDownloadFailBlock;
 
 
 
-@interface BHNetworking (cache)
+@interface BHNetwork (cache)
 
 /**
  *  获取缓存目录路径

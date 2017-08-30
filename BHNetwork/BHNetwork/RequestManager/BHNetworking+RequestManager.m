@@ -31,7 +31,7 @@
 
 @end
 
-@implementation BHNetworking (RequestManager)
+@implementation BHNetwork (RequestManager)
 
 + (BOOL)haveSameRequestInTasksPool:(BHURLSessionTask *)task {
     __block BOOL isSame = NO;

@@ -7,9 +7,9 @@
 //
 
 
-#import "BHNetworking.h"
+#import "BHNetwork.h"
 
-@interface BHNetworking (RequestManager)
+@interface BHNetwork (RequestManager)
 /**
  *  判断网络请求池中是否有相同的请求
  *
