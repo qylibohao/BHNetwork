@@ -8,7 +8,6 @@
 
 
 #import "BHNetwork.h"
-#import "AFNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
 #import "BHNetworking+RequestManager.h"
 #import "BHCacheManager.h"

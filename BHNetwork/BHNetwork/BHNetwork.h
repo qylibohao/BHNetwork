@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#if __has_include(<AFNetworking.h>)
+#import <AFNetworking.h>
+#else
 #import "AFNetworking.h"
+#endif
 
 typedef NS_ENUM(NSUInteger, BHRequestSerializer) {
     /** 设置请求数据为JSON格式*/
